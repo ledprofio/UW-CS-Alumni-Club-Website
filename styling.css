@@ -1,0 +1,135 @@
+/* Universal Styling Start */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+width: 100%;
+font-family: 'Press Start 2P', cursive;
+}
+
+
+nav {
+background-color: #e8e8e8;
+position: fixed;
+top: 0px;
+font-size: 20px;
+width: 100%;
+padding: 20px;
+}
+
+	#navLinks {
+	padding: 25px;
+	}
+
+	nav ul {
+	list-style-type: none;
+	}
+
+	nav li {
+	float: left;
+	margin-right: 45px;
+	}
+
+	nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+	}
+
+	nav a:hover {
+	color: #646464;
+	}
+
+footer {
+text-align: center;
+background-color: #e8e8e8;
+padding: 15px;
+}
+
+/* Universal Styling End */
+
+
+/* index.html Styling Start */
+
+.FirstBlockIndex {
+margin: 90px auto 20px auto;
+text-align: center;
+padding: 35px 0px;
+border-radius: 25px;
+width: 90%;
+color: white;
+background-color: white;
+background-image: url("images/headerImageIndex.gif");
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: fixed;
+}
+
+.SecondBlockIndex {
+margin: 0px 0px 25px 0px;
+background-color: #ff00003b;
+width: 95%;
+border-radius: 25px;
+margin: 0px auto 32px auto;
+text-align: center;
+padding: 10px;
+font-size: 11px;
+line-height: 1.9;
+}
+
+		#leftTableCellIndex {
+		clear: both;
+		display: table-cell;
+		vertical-align: top;
+		text-align: left;
+		padding: 10px;
+		width: 50%;
+		}
+
+			#leftTableCellIndex p {
+			padding-bottom: 20px;
+			}
+
+			#leftTableCellIndex li {
+			list-style-type: none;
+			}
+
+		#rightTableCellIndex {
+		clear: both;
+		display: table-cell;
+		vertical-align: top;
+		text-align: center;
+		padding: 10px;
+		}
+
+			#rightTableCellIndex img {
+			border-radius: 25px;
+			width: 90%;
+			}
+
+				#rightTableCellIndex a:link {
+				color: darkred;
+				}
+
+				#rightTableCellIndex a:visited {
+				color: red;
+				}
+
+				#rightTableCellIndex a:hover {
+				color: darkred;
+				}
+
+				#rightTableCellIndex a:active {
+				color: darkred;
+				text-decoration: none;
+				}
+
+/* index.html Styling Start */
+
+
+/* events.html Styling Start */

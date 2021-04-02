@@ -55,7 +55,7 @@ padding: 15px;
 
 /* index.html Styling Start */
 
-.FirstBlockIndex {
+.FirstBlock_Index {
 margin: 90px auto 20px auto;
 text-align: center;
 padding: 35px 0px;
@@ -70,7 +70,7 @@ background-size: cover;
 background-position: fixed;
 }
 
-.SecondBlockIndex {
+.SecondBlock_Index {
 margin: 0px 0px 25px 0px;
 background-color: #ff00003b;
 width: 95%;
@@ -82,7 +82,7 @@ font-size: 11px;
 line-height: 1.9;
 }
 
-		#leftTableCellIndex {
+		#leftTableCell_Index {
 		clear: both;
 		display: table-cell;
 		vertical-align: top;
@@ -91,15 +91,15 @@ line-height: 1.9;
 		width: 50%;
 		}
 
-			#leftTableCellIndex p {
+			#leftTableCell_Index p {
 			padding-bottom: 20px;
 			}
 
-			#leftTableCellIndex li {
+			#leftTableCell_Index li {
 			list-style-type: none;
 			}
 
-		#rightTableCellIndex {
+		#rightTableCell_Index {
 		clear: both;
 		display: table-cell;
 		vertical-align: top;
@@ -107,24 +107,24 @@ line-height: 1.9;
 		padding: 10px;
 		}
 
-			#rightTableCellIndex img {
+			#rightTableCell_Index img {
 			border-radius: 25px;
 			width: 90%;
 			}
 
-				#rightTableCellIndex a:link {
+				#rightTableCell_Index a:link {
 				color: darkred;
 				}
 
-				#rightTableCellIndex a:visited {
+				#rightTableCell_Index a:visited {
 				color: red;
 				}
 
-				#rightTableCellIndex a:hover {
+				#rightTableCell_Index a:hover {
 				color: darkred;
 				}
 
-				#rightTableCellIndex a:active {
+				#rightTableCell_Index a:active {
 				color: darkred;
 				text-decoration: none;
 				}

@@ -77,8 +77,8 @@ border-radius: 25px;
 margin: 0px auto 32px auto;
 text-align: center;
 padding: 10px;
-font-size: 11px;
-line-height: 1.9;
+font-size: 16px;
+line-height: 2.1;
 }
 
 		#leftTableCell_Index {
@@ -102,7 +102,7 @@ line-height: 1.9;
 		#rightTableCell_Index {
 		clear: both;
 		display: table-cell;
-		vertical-align: top;
+		vertical-align: middle;
 		text-align: center;
 		padding: 10px;
 		}
@@ -111,6 +111,8 @@ line-height: 1.9;
 			border-radius: 25px;
 			width: 90%;
 			padding-bottom: 10px;
+			max-width: 592px;
+			max-height: 370px;
 			}
 
 				#rightTableCell_Index a:link {
@@ -130,6 +132,11 @@ line-height: 1.9;
 				}
 
 /* index.html Styling Start */
+
+
+/* events.html Styling Start */
+
+/* events.html Styling End */
 
 
 /* register.html Styling Start */
@@ -180,3 +187,5 @@ margin: 90px auto 30px auto;
 			.FirstBlock_Register form select {
 			width: 94.5%;
 			}
+
+/* register.html Styling End */

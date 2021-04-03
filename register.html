@@ -5,16 +5,25 @@
 
 	<head>
 
-		<!--Font-->
+		<!--Press Start 2P Google Font-->
+
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+
 		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-		<!--CSS Styling Sheet-->
-		<link href="/styling.css" rel="stylesheet"> 
+
+		<!--CSS Styling Sheets-->
+
+		<link href="/styling-universal.css" rel="stylesheet"> 
+
+		<link href="/styling-register.css" rel="stylesheet"> 
+
 
 		<!--Phone Compatibility-->
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		
 	</head>
 
 
@@ -27,62 +36,105 @@
 		<!--Navigation Bar-->
 
 		<div class="Nav-Bar-Div_UNIVERSAL">
+
 			<nav class="Nav-Bar_UNIVERSAL">
+
 				<div id="nav-Bar-Unordered-List-Div_UNIVERSAL">
+
 					<ul id="nav-Bar-Unordered-List_UNIVERSAL">
+
 						<div id="nav-Bar-Unordered-List-Li-Div_UNIVERSAL">
-							<li id="nav-Bar-Unordered-List-Home_UNIVERSAL"><a href="index.html" id="nav-Bar-Unordered-List-Home-Link_UNIVERSAL">Home</a></li>
-							<li id="nav-Bar-Unordered-List-Events_UNIVERSAL"><a href="events.html" id="nav-Bar-Unordered-List-Events-Link_UNIVERSAL">Events</a></li>
-							<li id="nav-Bar-Unordered-List-Register_UNIVERSAL"><a href="register.html" id="nav-Bar-Unordered-List-Register-Link_UNIVERSAL">Register</a></li>
+
+							<li id="nav-Bar-Unordered-List-Home_UNIVERSAL"><a id="nav-Bar-Unordered-List-Home-Link_UNIVERSAL" href="index.html">Home</a></li>
+
+							<li id="nav-Bar-Unordered-List-Events_UNIVERSAL"><a id="nav-Bar-Unordered-List-Events-Link_UNIVERSAL" href="events.html">Events</a></li>
+
+							<li id="nav-Bar-Unordered-List-Register_UNIVERSAL"><a id="nav-Bar-Unordered-List-Register-Link_UNIVERSAL" href="register.html">Register</a></li>
+
 						</div>
+
 					</ul>
+
 				</div>
+
 			</nav>
+
 		</div>
+
+
+<!--Main Content-->
 
 </main>
 
-	<div class="FirstBlock_Register">
 
-		<p>Required Field:*</p>
+	<!--Registration Form-->
 
-		<form name="registrationForm" action="#" method="post">
+	<div class="First-Block_Register">
 
-			Name:*
-			<input type="text" name="name" size="100%">
+		<div id="first-Block-Paragraphs-Div_Register">
 
-			Email:*
-			<input type="text" name="email" size="100%">
+			<p id="first-Block-First-Paragraph_Register">Required Field:*</p>
 
-			Graduation Year:*
-			<input type="text" name="graduationDate" size="100%">
+		</div>
 
-			Degree[s] Earned:*
-			<input type="text" name="degreesEarned" size="100%">
+		<div id="first-Block-Form-Div_Register">
 
-			Other Hobbies & Interests:
-			<input type="text" name="hobbiesAndInterests" size="100%">
+			<form id="first-Block-Form_Register" name="registrationForm" action="#" method="POST">
 
-			Mailing Address:
-			<input type="text" name="mailingAddress" size="100%">
+				<div id="first-Block-Form-Entries-Div_Register">
 
-			Phone Number:
-			<input type="text" name="phoneNumber" size="100%">
+					<label for="first-Block-Form-Name-Entry_Register">Name:*</label>
 
-			Future Email Communications Opt-In:*
-			<br>
-			<select>
-				
-				<option value="yes">Yes</option>
-				<option value="no">No</option>
+					<input id="first-Block-Form-Name-Entry_Register" type="text" name="name" size="100%">
 
-			</select>
+					<label for="first-Block-Form-Email-Entry_Register">Email:*</label>
 
-			<input type="submit">
+					<input id="first-Block-Form-Email-Entry_Register" type="text" name="email" size="100%">
 
-		</form>
-	
+					<label for="first-Block-Form-Graduation-Year-Entry_Register">Graduation Year:*</label>
+
+					<input id="first-Block-Form-Graduation-Year-Entry_Register" type="text" name="graduationDate" size="100%">
+
+					<label for="first-Block-Form-Degrees-Earned-Entry_Register">Degree[s] Earned:*</label>
+
+					<input id="first-Block-Form-Degrees-Earned-Entry_Register" type="text" name="degreesEarned" size="100%">
+
+					<label for="first-Block-Form-Hobbies-Interests-Entry_Register">Other Hobbies & Interests:</label>
+
+					<input id="first-Block-Form-Hobbies-Interests-Entry_Register" type="text" name="hobbiesAndInterests" size="100%">
+
+					<label for="first-Block-Form-Mailing-Address-Entry_Register">Mailing Address:</label>
+
+					<input id="first-Block-Form-Mailing-Address-Entry_Register" type="text" name="mailingAddress" size="100%">
+
+					<label for="first-Block-Form-Phone-Number-Entry_Register">Phone Number:</label>
+
+					<input id="first-Block-Form-Phone-Number-Entry_Register" type="text" name="phoneNumber" size="100%">
+
+					<label for="first-Block-Form-Select-Email-Opt-Entry_Register">Future Email Communications Opt-In:*</label>
+
+					<select id="first-Block-Form-Select-Email-Opt-Entry_Register">
+
+						<div id="first-Block-Form-Select-Email-Opt-Entry-Options-Div_Register">
+
+							<option id="first-Block-Form-Select-Email-Opt-Entry-First-Option_Register" value="yes">Yes</option>
+
+							<option id="first-Block-Form-Select-Email-Opt-Entry-Second-Option_Register" value="no">No</option>
+
+						</div>
+
+					</select>
+
+					<input id="first-Block-Form-Submit-Button_Register" type="submit">
+
+				</div>
+
+			</form>
+
+		</div>
+
 	</div>
+
 
 </main>
 
@@ -90,17 +142,24 @@
 		<!--Footer-->
 
 		<div class="Footer_UNIVERSAL">
+
 			<footer id="footer_UNIVERSAL">
 
-				<h6 id="footer-Header_UNIVERSAL">UW-Madison CS Alumni Club - 2021</h6>
-				
+				<div id="footer-Headers-Div">
+
+					<h6 id="footer-First-Header_UNIVERSAL">UW-Madison CS Alumni Club - 2021</h6>
+
+				</div>
+
 			</footer>
+			
 		</div>
 
 
 		<!--External Javascript File-->
+
 		<script src="external.js"></script>
 
+
 	</body>
-	
 </html>

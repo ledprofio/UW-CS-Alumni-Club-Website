@@ -1,0 +1,78 @@
+/* UNIVERSAL CSS Stylesheet */
+
+/* For Browser Compataibility */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    }
+    
+    
+    .Body_Index,
+
+    .Body_Events,
+
+    .Body_Register {
+
+    width: 100%;
+
+    font-family: 'Press Start 2P', cursive;
+
+    }
+    
+    
+    .Nav-Bar_UNIVERSAL {
+
+    background-color: #e8e8e8;
+
+    position: fixed;
+
+    top: 0px;
+
+    font-size: 20px;
+
+    width: 100%;
+
+    padding: 20px;
+
+    }
+    
+        #nav-Bar-Unordered-List_UNIVERSAL li {
+
+        float: left;
+
+        margin-right: 45px;
+
+        list-style-type: none;
+
+        }
+    
+        #nav-Bar-Unordered-List_UNIVERSAL a {
+
+        text-transform: uppercase;
+
+        text-decoration: none;
+
+        color: black;
+
+        }
+    
+        #nav-Bar-Unordered-List_UNIVERSAL a:hover {
+
+        color: #646464;
+
+        }
+    
+    
+    #footer_UNIVERSAL {
+
+    text-align: center;
+
+    background-color: #e8e8e8;
+
+    padding: 15px;
+
+    }

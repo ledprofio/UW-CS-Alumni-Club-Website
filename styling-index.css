@@ -1,0 +1,132 @@
+/* index.html CSS Stylesheet */
+
+
+.First-Block-Div_Index {
+
+    margin: 90px auto 20px auto;
+
+    text-align: center;
+
+    padding: 35px 0px;
+
+    border-radius: 25px;
+
+    width: 90%;
+
+    color: white;
+
+    background-color: white;
+
+    background-image: url("images/headerImageIndex.gif");
+
+    background-repeat:  no-repeat;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-position: fixed;
+
+    }
+    
+    
+        #first-Block-First-Header_Index {
+
+        margin-bottom: 20px;
+
+        }
+    
+    
+    .Second-Block_Index {
+
+    background-color: #ff00003b;
+
+    width: 95%;
+
+    border-radius: 25px;
+
+    margin: 0px auto 32px auto;
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    line-height: 2.1;
+
+    }
+    
+            #left-Table-Cell_Index {
+
+            clear: both;
+
+            display: table-cell;
+
+            vertical-align: top;
+
+            text-align: left;
+
+            padding: 10px;
+
+            width: 50%;
+
+            margin: auto 0px auto 0px
+
+            }
+    
+                #left-Table-Cell-Paragraphs-Div_Index p {
+
+                padding-bottom: 20px;
+
+                }
+    
+                #left-Table-Cell-Ordered-List_Index li {
+
+                list-style-type: none;
+
+                }
+    
+            #right-Table-Cell_Index {
+
+            clear: both;
+
+            display: table-cell;
+
+            vertical-align: middle;
+
+            text-align: center;
+
+            padding: 10px;
+
+            }
+    
+                #right-Table-Cell-Images-Div_Index img {
+
+                border-radius: 25px;
+
+                width: 90%;
+
+                padding-bottom: 10px;
+
+                max-width: 592px;
+
+                max-height: 370px;
+
+                }
+    
+                #right-Table-Cell-Register-Links-Div_Index a:visited {
+
+                color: red;
+
+                }
+    
+                #right-Table-Cell-Register-Links-Div_Index a:link,
+
+                #right-Table-Cell-Register-Links-Div_Index a:hover,
+
+                #right-Table-Cell-Register-Links-Div_Index a:active {
+
+                color: darkred;
+                
+                }

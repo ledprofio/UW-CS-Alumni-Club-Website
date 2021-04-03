@@ -1,4 +1,7 @@
-/* Universal Styling Start */
+/* UNIVERSAL (All Directory .html Files) Styling Start */
+
+
+/* For Browser Compataibility */
 
 * {
 margin: 0;
@@ -6,13 +9,15 @@ padding: 0;
 }
 
 
-body {
+.Body_Index,
+.Body_Events,
+.Body_Register {
 width: 100%;
 font-family: 'Press Start 2P', cursive;
 }
 
 
-nav {
+.Nav-Bar_UNIVERSAL {
 background-color: #e8e8e8;
 position: fixed;
 top: 0px;
@@ -21,41 +26,41 @@ width: 100%;
 padding: 20px;
 }
 
-	#navLinks {
-	padding: 25px;
-	}
-
-	nav ul {
+	#nav-Bar-Unordered-List-Div_UNIVERSAL {
 	list-style-type: none;
 	}
 
-	nav li {
+	#nav-Bar-Unordered-List_UNIVERSAL li {
 	float: left;
 	margin-right: 45px;
 	}
 
-	nav a {
+	#nav-Bar-Unordered-List_UNIVERSAL a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
 	}
 
-	nav a:hover {
+	#nav-Bar-Unordered-List_UNIVERSAL a:hover {
 	color: #646464;
 	}
 
-footer {
+
+#footer_UNIVERSAL {
 text-align: center;
 background-color: #e8e8e8;
 padding: 15px;
 }
 
-/* Universal Styling End */
+
+/* UNIVERSAL (All Directory .html Files) Styling End */
+
+
 
 
 /* index.html Styling Start */
 
-.FirstBlock_Index {
+.First-Block-Div_Index {
 margin: 90px auto 20px auto;
 text-align: center;
 padding: 35px 0px;
@@ -69,6 +74,12 @@ background-attachment: fixed;
 background-size: cover;
 background-position: fixed;
 }
+
+
+	#first-Block-First-Header_Index {
+	margin-bottom: 20px;
+	}
+
 
 .SecondBlock_Index {
 background-color: #ff00003b;
@@ -134,9 +145,13 @@ line-height: 2.1;
 /* index.html Styling Start */
 
 
+
+
 /* events.html Styling Start */
 
 /* events.html Styling End */
+
+
 
 
 /* register.html Styling Start */

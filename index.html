@@ -1,94 +1,109 @@
 <!DOCTYPE html>
 
-<head>
-
-	<!--Font-->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
-	<!--CSS Styling Sheet-->
-	<link href="/styling.css" rel="stylesheet"> 
-
-	<!--Phone Compatibility-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
-<body>
-
-	<!--Class/ID Naming Convention: (Descriptior)_(HTML Page Name) e.x. FirstBlock_Index references the first block on the index.html page-->
-
-	<!--Navigation Bar-->
-	<nav>
-		<ul>
-
-			<li><a href="index.html">Home</a></li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="register.html">Register</a></li>
-
-		</ul>
-	</nav>
 
 
-	<!--First Block: Headers & .gif-->
-	<div class="FirstBlock_Index">
 
-		<h1>CS Alumni Club</h1>
-		<br>
-		<h3>UW-Madison</h3>
+	<head>
 
-	</div>
+		<!--Font-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+		<!--CSS Styling Sheet-->
+		<link href="/styling.css" rel="stylesheet"> 
+
+		<!--Phone Compatibility-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
 
 
-	<main>
 
-		<!--Second Block: 2 CSS Table Cells-->
-		<div class="SecondBlock_Index">
 
-			<!--Left Table Cell: Paragraph & List-->
-			<div id="leftTableCell_Index">
+	<body class="Body_Index">
 
-				<p>The UW CS Alumni Club (Est. 2017) is the go-to for Badgers looking to socialize, network, learn, and grow - carrying out the Wisconsin Idea across the globe. We have local chapters in Madison, and the Silicon Valley/San Francisco Bay area. And we host an array of events:</p>
+	<!--Class(starts with capitalized letter)/ID(starts with non-capitalized letter) Naming Convention: (Descriptior)_(HTML Page Name) e.x. form_Index references the form of the index.html page as an ID, while Nav-Bar-Div_UNIVERSAL references the navigation bar of all directory .html pages as a class-->
 
-				<ol>
-					<li>⦿ Annual picnics</li>
-					<li>⦿ Company tours</li>
-					<li>⦿ Tech talks</li>
-					<li>⦿ Small-group mentors</li>
-					<li>⦿ Happy hour</li>
-					<li>⦿ And more!</li>
-				</ol>
+		<!--Navigation Bar-->
 
-			</div>
-
-			<!--Right Table Cell: Image & Register href-->
-			<div id="rightTableCell_Index">
-
-				<img src="images/alumniEventImageIndex.jpg">
-
-				<p id="rightTableCellLink_Index">We encourage you to stay in the loop by <a href="register.html">Registering</a>!</p>
-
-			</div>
-
+		<div class="Nav-Bar-Div_UNIVERSAL">
+			<nav class="Nav-Bar_UNIVERSAL">
+				<div id="nav-Bar-Unordered-List-Div_UNIVERSAL">
+					<ul id="nav-Bar-Unordered-List_UNIVERSAL">
+						<div id="nav-Bar-Unordered-List-Li-Div_UNIVERSAL">
+							<li id="nav-Bar-Unordered-List-Home_UNIVERSAL"><a href="index.html" id="nav-Bar-Unordered-List-Home-Link_UNIVERSAL">Home</a></li>
+							<li id="nav-Bar-Unordered-List-Events_UNIVERSAL"><a href="events.html" id="nav-Bar-Unordered-List-Events-Link_UNIVERSAL">Events</a></li>
+							<li id="nav-Bar-Unordered-List-Register_UNIVERSAL"><a href="register.html" id="nav-Bar-Unordered-List-Register-Link_UNIVERSAL">Register</a></li>
+						</div>
+					</ul>
+				</div>
+			</nav>
 		</div>
 
 
-	</main>
+		<!--First Block: Header; Text & .gif-->
+
+		<div class="First-Block-Div_Index">
+			<div id="first-Block-Headers-Div_Index">
+
+				<h1 id="first-Block-First-Header_Index">CS Alumni Club</h1>
+
+				<h3 id="first-Block-Second-Header_Index">UW-Madison</h3>
+
+			</div>	
+		</div>
 
 
-	<!--Footer-->
-	<footer>
+		<main>
 
-		<h6>UW-Madison CS Alumni Club - 2021</h6>
+				<!--Second Block: 2 CSS Table Cells-->
+				<div class="SecondBlock_Index">
+
+					<!--Left Table Cell: Paragraph & List-->
+					<div id="leftTableCell_Index">
+
+						<p>The UW CS Alumni Club (Est. 2017) is the go-to for Badgers looking to socialize, network, learn, and grow - carrying out the Wisconsin Idea across the globe. We have local chapters in Madison, and the Silicon Valley/San Francisco Bay area. And we host an array of events:</p>
+
+						<ol>
+							<li>⦿ Annual picnics</li>
+							<li>⦿ Company tours</li>
+							<li>⦿ Tech talks</li>
+							<li>⦿ Small-group mentors</li>
+							<li>⦿ Happy hour</li>
+							<li>⦿ And more!</li>
+						</ol>
+
+					</div>
+
+					<!--Right Table Cell: Image & Register href-->
+					<div id="rightTableCell_Index">
+
+						<img src="images/alumniEventImageIndex.jpg">
+
+						<p id="rightTableCellLink_Index">We encourage you to stay in the loop by <a href="register.html">Registering</a>!</p>
+
+					</div>
+
+				</div>
 
 
-	</footer>
+		</main>
 
 
-	<!--External Javascript File-->
-	<script src="external.js"></script>
+		<!--Footer-->
+
+		<div class="Footer_UNIVERSAL">
+			<footer id="footer_UNIVERSAL">
+
+				<h6 id="footer-Header_UNIVERSAL">UW-Madison CS Alumni Club - 2021</h6>
+				
+			</footer>
+		</div>
 
 
-</body>
+		<!--External Javascript File-->
+		<script src="external.js"></script>
 
+	</body>
+	
 </html>

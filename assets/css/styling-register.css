@@ -13,6 +13,7 @@
 
     }
     
+
         #first-Block-Paragraphs-Div_Register {
 
         padding: 30px 0px 0px 30px;
@@ -24,10 +25,11 @@
         padding: 30px;
 
         }
-    
+        
+
                 #first-Block-Form_Register input, 
 
-                #first-Block-Form-Select-Email-Opt-Entry_Register {
+                #first-Block-Form_Register select {
 
                 padding: 12px;
 
@@ -43,28 +45,43 @@
 
                 }
     
+
                     #first-Block-Form_Register input[type=text] {
 
                     width: 92%;
 
                     }
     
+
                     #first-Block-Form_Register input:hover, 
 
-                    #first-Block-Form_Register input:focus {
+                    #first-Block-Form_Register input:focus,
+                    
+                    #first-Block-Form_Register select:hover,
+                    
+                    #first-Block-Form_Register select:focus {
 
                     border: 2px solid darkred;
 
                     border-radius: 25px;
 
                     }
-    
-                    #first-Block-Form_Register select {
 
-                    width: 93.5%;
+
+                    #first-Block-Form_Register select:visited {
+
+                    border: 2px solid red;
 
                     }
     
+
+                    #first-Block-Form_Register select {
+
+                    width: 30%;
+
+                    }
+    
+                    
                     #first-Block-Form_Register input[type=submit] {
 
                     font-family: 'Press Start 2P', cursive;

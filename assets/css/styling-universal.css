@@ -40,16 +40,18 @@
 
     }
     
+
         #nav-Bar-Unordered-List_UNIVERSAL li {
 
         float: left;
 
-        margin-right: 45px;
+        margin: 15px 45px 15px 15px;
 
         list-style-type: none;
 
         }
     
+
         #nav-Bar-Unordered-List_UNIVERSAL a {
 
         text-transform: uppercase;
@@ -60,6 +62,7 @@
 
         }
     
+        
         #nav-Bar-Unordered-List_UNIVERSAL a:hover {
 
         color: #646464;

@@ -3,7 +3,7 @@
 
 .First-Block-Div_Index {
 
-    margin: 100px auto 20px auto;
+    margin: 125px auto 35px auto;
 
     text-align: center;
 
@@ -11,7 +11,7 @@
 
     border-radius: 25px;
 
-    width: 90%;
+    width: 70%;
 
     color: white;
 
@@ -41,7 +41,7 @@
 
     background-color: #ff00003b;
 
-    width: 95%;
+    width: 85%;
 
     border-radius: 25px;
 
@@ -53,10 +53,11 @@
 
     font-size: 16px;
 
-    line-height: 2.1;
+    line-height: 2.5;
 
     }
     
+
             #first-Cell_Index {
 
             display: block;
@@ -69,18 +70,21 @@
 
             }
     
+
                 #first-Cell-Paragraphs-Div_Index p {
 
                 padding-bottom: 20px;
 
                 }
     
+
                 #first-Cell-Ordered-List_Index li {
 
                 list-style-type: none;
 
                 }
     
+
             #second-Cell_Index {
 
             display: block;
@@ -91,6 +95,7 @@
 
             }
     
+
                 #second-Cell-Images-Div_Index img {
 
                 border-radius: 25px;
@@ -101,14 +106,18 @@
 
                 max-height: 370px;
 
+                width: 85%;
+
                 }
     
+
                 #second-Cell-Register-Links-Div_Index a:visited {
 
                 color: red;
 
                 }
     
+                
                 #second-Cell-Register-Links-Div_Index a:link,
 
                 #second-Cell-Register-Links-Div_Index a:hover,

@@ -29,14 +29,38 @@
 
     }
     
-    
-        #first-Block-First-Header_Index {
 
-        margin-bottom: 20px;
+        @media screen and (max-width: 554px) {
+
+        .First-Block-Div_Index {
+
+        margin-top: 175px;
 
         }
+
+        }
+
+
+        @media screen and (max-width: 654px) {
+
+        #first-Block-Headers-Div_Index h1, h2, h3, h4, h5, h6 {
+
+        line-height: 1.5;
+
+        }
+
+        }
+
+
+        #first-Block-First-Header_Index {
+
+            margin-bottom: 20px;
+    
+            }
     
     
+
+            
     .Second-Block_Index {
 
     background-color: #ff00003b;
@@ -56,7 +80,7 @@
     line-height: 2.5;
 
     }
-    
+
 
             #first-Cell_Index {
 
@@ -117,7 +141,7 @@
 
                 }
     
-                
+
                 #second-Cell-Register-Links-Div_Index a:link,
 
                 #second-Cell-Register-Links-Div_Index a:hover,

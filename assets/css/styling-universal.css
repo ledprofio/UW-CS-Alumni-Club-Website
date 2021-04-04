@@ -11,71 +11,77 @@
     }
     
     
-    .Body_Index,
 
-    .Body_Events,
 
-    .Body_Register {
+.Body_Index,
 
-    width: 100%;
+.Body_Events,
 
-    font-family: 'Press Start 2P', cursive;
+.Body_Register {
+
+width: 100%;
+
+font-family: 'Press Start 2P', cursive;
+
+}
+    
+    
+
+
+.Nav-Bar_UNIVERSAL {
+
+background-color: #e8e8e8;
+
+position: fixed;
+
+top: 0px;
+
+font-size: 20px;
+
+width: 100%;
+
+padding: 20px;
+
+}
+
+
+    #nav-Bar-Unordered-List_UNIVERSAL li {
+
+    float: left;
+
+    margin: 15px 45px 15px 15px;
+
+    list-style-type: none;
+
+    }
+
+
+    #nav-Bar-Unordered-List_UNIVERSAL a {
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    color: black;
+
+    }
+
+    
+    #nav-Bar-Unordered-List_UNIVERSAL a:hover {
+
+    color: #646464;
 
     }
     
     
-    .Nav-Bar_UNIVERSAL {
 
-    background-color: #e8e8e8;
-
-    position: fixed;
-
-    top: 0px;
-
-    font-size: 20px;
-
-    width: 100%;
-
-    padding: 20px;
-
-    }
     
+#footer_UNIVERSAL {
 
-        #nav-Bar-Unordered-List_UNIVERSAL li {
+text-align: center;
 
-        float: left;
+background-color: #e8e8e8;
 
-        margin: 15px 45px 15px 15px;
+padding: 15px;
 
-        list-style-type: none;
-
-        }
-    
-
-        #nav-Bar-Unordered-List_UNIVERSAL a {
-
-        text-transform: uppercase;
-
-        text-decoration: none;
-
-        color: black;
-
-        }
-    
-        
-        #nav-Bar-Unordered-List_UNIVERSAL a:hover {
-
-        color: #646464;
-
-        }
-    
-    
-    #footer_UNIVERSAL {
-
-    text-align: center;
-
-    background-color: #e8e8e8;
-
-    padding: 15px;
-
-    }
+}

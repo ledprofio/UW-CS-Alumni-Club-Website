@@ -1,1 +1,86 @@
 /* events.html CSS Stylesheet */
+
+
+.Event-Entry-First_Events {
+
+background-color: #ff00003b;
+
+width: 85%;
+
+border-radius: 25px;
+
+margin: 120px auto 30px auto;
+
+padding: 30px;
+
+line-height: 1.5;
+
+text-align: center;
+
+}
+
+
+    @media screen and (max-width: 554px) {
+
+    .Event-Entry-First_Events {
+
+    margin-top: 170px;
+
+    }
+
+    }
+
+
+
+
+.Event-Entry-Template_Events {
+
+background-color: #ff00003b;
+
+width: 85%;
+
+border-radius: 25px;
+
+margin: 30px auto 30px auto;
+
+padding: 30px;
+
+line-height: 1.5;
+
+text-align: center;
+
+}
+
+
+    #event-Entry-Title-Template_Events {
+
+    margin-bottom: 30px;
+
+    }
+
+
+    #event-Entry-Time-Template_Events,
+
+    #event-Entry-Location-Template_Events {
+
+    margin-bottom: 10px;
+
+    font-style: italic;
+
+    }
+
+
+    #event-Entry-Location-Template_Events {
+
+    margin-bottom: 25px;
+
+    font-style: italic;
+
+    }
+
+
+    #event-Entry-Description-Template_Events {
+
+    font-size: 16px;    
+
+    }

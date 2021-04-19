@@ -85,3 +85,39 @@ background-color: #e8e8e8;
 padding: 15px;
 
 }
+
+
+    #footer-Headers-Div {
+
+    margin: 15px 0px
+
+    }
+
+
+    #footer-social-media-div_UNIVERSAL {
+
+    display: flex;
+
+    justify-content: center;
+
+    }
+
+
+    #footer-social-media-div_UNIVERSAL.entry {
+
+    flex: 33.33%;
+
+    padding: 5px;
+
+    }
+
+
+    #footer-social-media-div_UNIVERSAL img {
+
+    width: 35px;
+
+    height: 35px;
+
+    padding: 10px;
+
+    }

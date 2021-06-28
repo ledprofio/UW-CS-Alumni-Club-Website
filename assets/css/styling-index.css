@@ -94,14 +94,14 @@
 
             width: 95%;
 
-            margin-bottom: 8px;
+            margin-bottom: 40px;
 
             }
     
 
                 #first-Cell-Paragraphs-Div_Index p {
 
-                padding-bottom: 20px;
+                padding: 40px 0px 40px 0px;
 
                 }
     
@@ -128,27 +128,34 @@
 
                 border-radius: 25px;
 
-                padding-bottom: 10px;
+                padding-bottom: 35px;
 
                 width: 60%;
 
                 height: 60%;
 
                 }
+
+
+                #second-Cell-Paragraphs-Div_Index p {
+
+                padding: 15px 0px 40px 0px;
+
+                }
     
 
-                #second-Cell-Register-Links-Div_Index a:visited {
+                #first-Cell-Paragraphs-Div_Index a:visited {
 
                 color: red;
 
                 }
     
 
-                #second-Cell-Register-Links-Div_Index a:link,
+                #sfirst-Cell-Paragraphs-Div_Index a:link,
 
-                #second-Cell-Register-Links-Div_Index a:hover,
+                #first-Cell-Paragraphs-Div_Index a:hover,
 
-                #second-Cell-Register-Links-Div_Index a:active {
+                #first-Cell-Paragraphs-Div_Index a:active {
 
                 color: darkred;
                 

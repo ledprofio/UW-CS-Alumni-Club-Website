@@ -28,6 +28,22 @@
     background-position: fixed;
 
     }
+
+
+        a {
+
+        color: red;
+
+        }
+
+
+        a:hover, 
+
+        a:focus {
+
+        color: darkred;
+
+        }
     
 
         @media screen and (max-width: 554px) {
@@ -142,11 +158,3 @@
                 padding: 15px 0px 40px 0px;
 
                 }
-    
-
-                #first-Cell-Paragraphs-Div_Index a:visited {
-
-                color: red;
-
-                }
-    

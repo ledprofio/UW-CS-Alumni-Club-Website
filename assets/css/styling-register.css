@@ -33,7 +33,7 @@ margin: 120px auto 30px auto;
     }
     
 
-            #first-Block-Form_Register h1, h2, h3, h4, h5, h6 {
+            #first-Block-Header_Register {
 
             padding: 10px 0px 45px 0px;
 
@@ -48,7 +48,7 @@ margin: 120px auto 30px auto;
 
             padding: 12px;
 
-            margin: 20px;
+            margin: 20px 20px 50px 20px;
 
             border: 2px solid red;
 
@@ -68,7 +68,7 @@ margin: 120px auto 30px auto;
                 }
 
 
-                /*#first-Block-Form_Register input:hover, 
+                #first-Block-Form_Register input:hover, 
 
                 #first-Block-Form_Register input:focus,
                 
@@ -76,11 +76,11 @@ margin: 120px auto 30px auto;
                 
                 #first-Block-Form_Register select:focus {
 
-                border: 2px solid red;
+                border: 2px solid darkred;
 
                 border-radius: 25px;
 
-                }*/
+                }
 
 
                 #first-Block-Form_Register select:visited {

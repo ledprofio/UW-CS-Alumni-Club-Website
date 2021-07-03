@@ -1,0 +1,130 @@
+/* subscribe.html CSS Stylesheet */
+
+
+#mc_embed_signup {
+
+background-color: #ff00003b;
+
+width: 85%;
+
+border-radius: 25px;
+
+margin: 120px auto 30px auto;
+
+}
+
+    #mc_embed_signup h1, h2, h3, h4, h5, h6 {
+    
+    margin-top: 40px;
+
+    }
+
+
+    @media screen and (max-width: 554px) {
+
+    #mc_embed_signup {
+
+    margin-top: 170px;
+
+    }
+
+    }
+
+
+    #mc-embedded-subscribe-form {
+
+    padding: 30px;
+
+    }
+    
+        
+            #mc-embedded-subscribe-form {
+
+            padding: 10px 0px 45px 0px;
+
+            text-align: center;
+            
+            }
+
+
+            #mc-embedded-subscribe-form input, 
+
+            #mc-embedded-subscribe-form select {
+
+            padding: 15px;
+
+            margin: 20px 20px 50px 20px;
+
+            border: 2px solid red;
+
+            outline: none;
+
+            border-radius: 25px;
+
+            width: 92%;
+
+            text-align: center;
+            
+            font-family: 'Press Start 2P', cursive;
+
+            font-size: 15px;
+
+            }
+
+
+                #mc-embedded-subscribe-form input[type=text] {
+
+                width: 92%;
+
+                }
+
+
+                #mc-embedded-subscribe-form input:hover, 
+
+                #mc-embedded-subscribe-form input:focus,
+                
+                #mc-embedded-subscribe-form select:hover,
+                
+                #mc-embedded-subscribe-form select:focus {
+
+                border: 2px solid darkred;
+
+                border-radius: 25px;
+
+                }
+
+
+                #mc-embedded-subscribe-form select:visited {
+
+                border: 2px solid red;
+
+                }
+
+
+                #mc-embedded-subscribe-form select {
+
+                width: 20%;
+
+                }
+
+                
+                #mc-embedded-subscribe-form input[type=submit] {
+
+                font-family: 'Press Start 2P', cursive;
+
+                width: 30%;
+
+                display: block;
+
+                margin: 15px auto 5px auto;
+
+                background-color: white;
+                
+                }
+
+
+                .indicates-required {
+
+                margin: 35px 0px 85px 0px;
+
+                }

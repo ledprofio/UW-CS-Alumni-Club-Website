@@ -5,9 +5,11 @@
 
 background-color: #ff00003b;
 
-width: 85%;
+width: 80%;
 
 border-radius: 25px;
+
+padding: 7px 20px 0px 20px;
 
 margin: 120px auto 30px auto;
 
@@ -15,7 +17,11 @@ margin: 120px auto 30px auto;
 
     #mc_embed_signup h2 {
     
-    margin-top: 40px;
+    visibility: hidden;
+
+    padding: 0px;
+
+    margin: 0px;
 
     }
 
@@ -33,14 +39,12 @@ margin: 120px auto 30px auto;
 
     #mc-embedded-subscribe-form {
 
-    padding: 30px;
+    padding: 0px 30px;
 
     }
     
         
             #mc-embedded-subscribe-form {
-
-            padding: 10px 0px 45px 0px;
 
             text-align: center;
             
@@ -61,7 +65,7 @@ margin: 120px auto 30px auto;
 
             border-radius: 25px;
 
-            width: 85%;
+            width: 92%;
 
             text-align: center;
             
@@ -74,7 +78,7 @@ margin: 120px auto 30px auto;
 
                 #mc-embedded-subscribe-form input[type=text] {
 
-                width: 85%;
+                width: 92%;
 
                 }
 
@@ -104,12 +108,18 @@ margin: 120px auto 30px auto;
                 #mc-embedded-subscribe-form input[type=submit] {
 
                 width: 60%;
+
+                margin-top: 0px;
                 
                 }
 
 
                 .indicates-required {
 
-                margin: 35px 0px 85px 0px;
+                margin: 0px;
+
+                padding: 0px;
+
+                visibility: hidden;
 
                 }

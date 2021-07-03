@@ -108,11 +108,13 @@
 
             display: block;
 
+            text-align: center;
+
             padding: 10px;
 
             width: 95%;
 
-            margin-bottom: 40px;
+            margin: 0px auto 40px auto;
 
             }
     
@@ -136,6 +138,10 @@
             display: block;
 
             padding: 10px;
+
+            text-align: center;
+
+            margin: 0px auto;
 
             width: 95%;
 
